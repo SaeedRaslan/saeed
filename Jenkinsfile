@@ -1,7 +1,7 @@
 @Library('shared-lib') _
 
 dockerPipeline(
-    imageName: 'saeed/elghoul',
+    imageName: 'saeedraslan/jenkins',
     registry: 'docker.io',
     tag: 'latest'
 )
